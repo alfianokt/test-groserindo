@@ -1,5 +1,9 @@
 # Test Aplikasi Pertama
 
+## Installasi
+
+- Clone atau extract projek ini ke folder htdocs atau folder projek aplikasi
+
 # Jalankan
 ```bash
 php -S localhost:8080 -t app
