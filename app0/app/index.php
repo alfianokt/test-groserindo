@@ -24,9 +24,9 @@ class App
         $message = 'Jumlah telah melewati batas (5x)';
       } else {
         // kelipatan 3
-        if ($number % 3 == 0) $message = $ses_3_and_5 > 2 ? 'Belanja pangan' : 'Pasar 20';
+        if ($number % 3 == 0) $message = $ses_3_and_5 == 2 ? 'Belanja pangan' : 'Pasar 20';
         // kelipatan 5
-        if ($number % 5 == 0) $message = $ses_3_and_5 > 2 ? 'Pasar 20' : 'Belanja pangan';
+        if ($number % 5 == 0) $message = $ses_3_and_5 == 2 ? 'Pasar 20' : 'Belanja pangan';
         // kelipatan 3 & 5
         if ($number % 3 == 0 && $number % 5 == 0) {
           // set session baru
